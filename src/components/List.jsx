@@ -3,6 +3,7 @@ import React from 'react';
 import Todo from './Todo';
 
 function List(props) {
+    console.log(props.todos);
     return (
         <section className="todo-list">
             {props.todos.map(todo =>
